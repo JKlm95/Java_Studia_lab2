@@ -8,6 +8,24 @@ public class Main {
           Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indeksu (podać nr indesu z uczelni)
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
+        /* cw.1 pętle while */
+
+/* zad 1 - Napisać za pomocą pętli do-while kod który będzie iterował od liczby 1000 w dół do 0.
+  Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indexu (podać nr indexu)
+  to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
+*/
+
+        int i = 1000;
+        int index = 23447;
+        int lastTwoIndex = index % 100;
+
+        do {
+            if (i % lastTwoIndex == 0) {
+                System.out.println("liczba " + i + " jest podzielna przez " + lastTwoIndex);
+            }
+            --i;
+        }
+        while (i > 0);
 
 
         /* zad 2
