@@ -68,10 +68,13 @@ public class Main {
         */
 
 
+//        while(true){
+//            System.out.println("petla nieskonczona");
+//        }
 
-
-
-
+//        while (false){
+//            System.out.println("java: unreachable statement");
+//        }
 
 
     }
