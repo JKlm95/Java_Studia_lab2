@@ -1,9 +1,14 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        //zad1();
+        //zad2();
+
+
+
         /* ćwiczenie 5 Metody */
 
         /* zad.1
@@ -12,6 +17,7 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
+
 
         /* zad.2
         a) stworzyc tablicę typu String[6],
@@ -40,4 +46,67 @@ public class Main {
 
     }
 
+
+
+
+     /* zad.1
+        a) stworzyć tablicę typu int[20],
+        b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20,
+        c) napisać metodę, która wypisze otrzymane wartości,
+        d) wstawić wywołanie metody do metody main
+        */
+
+
+//    public static void zad1() {
+//        //Wyświetla 20 elementów od 40 do 21.
+//
+//        int[] tab = new int[20];
+//        for (int i = 0, j = 40; i < tab.length; i++, j--) {
+//            tab[i] = j;
+//        }
+//
+//        for (int i = 0; i < tab.length; i++) {
+//            System.out.print(tab[i] + " ");
+//        }
+//    }
+
+
+  /*  public static void zad2()
+
+    {
+        /* zad.2
+        a) stworzyc tablicę typu String[6],
+        b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
+            (użyć do tego pętli i klasy Scanner),
+        c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
+
+
+
+        String[] str = new String[6];
+
+        Scanner scanner = new Scanner(System.in);
+
+        for(int i = 0; i < str.length; i++)
+        {
+            str[i] = scanner.nextLine();
+        }
+
+        String[] odwrotne = new String[str.length];
+        for (int i = str.length -1; i > 0;)
+        {
+             for (int j = 0; j< str.length; j++)
+            {
+                odwrotne[j] = str[i];
+                i--;
+            }
+
+                System.out.println(Arrays.toString(odwrotne));
+        }
+    }
+    */
+
+
+
+
 }
+
